@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+#dogImageContainer img {
+    max-width: 100%;
+    height: auto;
+}
+
+#weatherContainer, #cryptoContainer {
+    margin-top: 15px;
+}
+
+.btn {
+    width: 100%;
+}

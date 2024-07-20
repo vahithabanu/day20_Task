@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Integration App</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">API Integration Application</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Random Dog Image</h2>
+                <button class="btn btn-primary" id="fetchDogImageBtn">Get Random Dog</button>
+                <div id="dogImageContainer" class="mt-3"></div>
+            </div>
+            <div class="col-md-4">
+                <h2>Weather Information</h2>
+                <input type="text" id="cityInput" class="form-control" placeholder="Enter City">
+                <button class="btn btn-primary mt-2" id="fetchWeatherBtn">Get Weather</button>
+                <div id="weatherContainer" class="mt-3"></div>
+            </div>
+            <div class="col-md-4">
+                <h2>Cryptocurrency Prices</h2>
+                <button class="btn btn-primary" id="fetchCryptoBtn">Get Crypto Prices</button>
+                <div id="cryptoContainer" class="mt-3"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
